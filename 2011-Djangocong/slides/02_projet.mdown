@@ -1,0 +1,72 @@
+# Création d'un nouveau projet
+
+.fx: title
+
+---
+
+# Projet *Free-Style*
+
+.fx: fullimage
+
+![](images/jenkins-startproject.png)
+
+---
+
+# Informations basiques
+
+.fx: fullimage
+
+![](images/jenkins-basic-infos.png)
+
+---
+
+# Configuration du (D)VCS
+
+.fx: fullimage
+
+![](images/jenkins-vcs.png)
+
+Astuce: en SSH vous pouvez placer vos clés dans le homedir de jenkins
+
+---
+
+# Build triggers
+
+.fx: fullimage
+
+![](images/jenkins-build-triggers.png)
+
+* Syntaxe CRON
+
+---
+
+# Étapes de build
+
+.fx: fullimage
+
+![](images/jenkins-build-noapp.png)
+
+### WTF?
+
+* On crée un `virtualenv` s'il n'existe pas
+* On l'active
+* On installe ou met à jour les dépendances avec pip
+* On lance la suite de tests
+
+---
+
+# Notifications
+
+.fx: fullimage
+
+![](images/jenkins-notify.png)
+
+<small style="color:#777">(pour l'envoi des notifications d'échec par email au client, ne faites pas ça chez vous, hein)</small>
+
+---
+
+# Houston, on a un problème
+
+.fx: centerquote
+
+> Mais… Mais… Jenkins, une fois qu'il a fini de lancer les tests, il fait quoi ?

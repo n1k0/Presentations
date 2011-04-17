@@ -1,0 +1,107 @@
+# Synthèse
+
+.fx: fullimage
+
+![](images/jenkins-global.png)
+
+---
+
+# Tintin  au pays de l'intégration continue
+
+.fx: fullimage
+
+![](images/tests-results-big.png)
+
+---
+
+# Rapports de test
+
+.fx: fullimage
+
+![](images/failure-summary.png)
+
+---
+
+# Détails d'un échec
+
+.fx: fullimage
+
+![](images/test-results-output.png)
+
+---
+
+# Couverture de code
+
+.fx: fullimage
+
+![](images/coverage-report.png)
+
+---
+
+# Couverture de code
+
+.fx: fullimage
+
+Note: les zones en rouge montrent le code non couvert par les tests.
+
+![](images/coverage-code.png)
+
+---
+
+# Violations
+
+.fx: fullimage
+
+![](images/pylint-violations.png)
+
+---
+
+# OH
+
+.fx: fullimage
+
+On peut bien évidemment affiner la granularité des rapports de violation ;)
+
+![](images/pylint-cheat.png)
+
+---
+
+# GithubWeb
+
+GithubWeb est un plugin Jenkins générant des liens vers le code directement sur Github.
+
+.fx: fullimage
+
+![](images/githubweb-link.png)
+
+---
+
+# Violations
+
+.fx: fullimage
+
+![](images/pylint-results.png)
+
+---
+
+# Principaux apports de la démarche
+
+.fx: bigbullet
+
+* Meilleur visibilité sur la qualité
+* Responsabilisation des développeurs
+* Bonne confiance sur les mises en production
+* Utilisation possible sur tout type de projet et de configuration d'équipe
+* Facile à installer et à intégrer à votre projet Django actuel !
+
+---
+
+# Limites
+
+.fx: bigbullet
+
+* Nécessite l'écriture de tests (!)
+* Java (#troll)
+* Moche (#troll++)
+* Potentielle incitation à la paresse intellectuelle
+* Ne doit pas abstraire la vision KISS

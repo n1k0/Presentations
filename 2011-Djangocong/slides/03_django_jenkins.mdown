@@ -1,0 +1,78 @@
+# Django-Jenkins
+
+.fx: title
+
+---
+
+# Django-Jenkins
+
+.fx: bigbullet
+
+* Application Django
+* Open Source (LGPL)
+* Effectue des opérations à destination de Jenkins :
+    1. Joue les tests
+    2. Lance des outils d'analyse de code (`Coverage`, `Pylint`, `PyFlaxes`, etc…)
+    3. Décore les résultats obtenus de façon exploitables pour Jenkins (`xUnit`)
+* [https://github.com/kmmbvnr/django-jenkins](https://github.com/kmmbvnr/django-jenkins)
+
+---
+
+# Ça s'installe comment ?
+
+.fx: larger
+
+Avec pip :
+
+    $ pip install django-jenkins
+
+Puis ajoutez l'app `jenkins` dans vos `INSTALLED_APPS`.
+
+**C'est tout.**
+
+Pour l'utiliser, lancez la commande `./manage.py jenkins`, l'export des résulats se fera dans le répertoire `reports` à la racine du projet :
+
+    $ ls ../reports/
+    TEST-gottlieb.tests.AlbumPhotoTest.xml  TEST-gottlieb.tests.GottliebManagerTest.xml coverage.xml
+    TEST-gottlieb.tests.AlbumTest.xml       TEST-gottlieb.tests.ModelTest.xml           pylint.report
+    TEST-gottlieb.tests.ExifTest.xml        TEST-gottlieb.tests.UtilsTest.xml
+
+---
+
+# Configuration
+
+.fx: fullimage
+
+![](images/jenkins-build-steps.png)
+
+---
+
+# Rapports de test
+
+.fx: fullimage
+
+![](images/test-config.png)
+
+---
+
+# Configuration de Pylint
+
+.fx: fullimage
+
+![](images/pylint-config.png)
+
+---
+
+# Configuration du Code Coverage
+
+.fx: fullimage
+
+![](images/coverage-config.png)
+
+---
+
+# Légitime interrogation
+
+.fx: centerquote
+
+> Oui, bon, ok, mais ça donne quoi ?
