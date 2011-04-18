@@ -99,5 +99,5 @@
 * Écrit en Java <small>(mais il fonctionne bien quand même)</small>
 * Open Source  (sous licence MIT)
 * Extensibilité, nombreux plugins
-* Intégration avec les différents (D)CVS: Git, Mercurial, SVN, CVS <small>(ne riez pas)</small>
+* Intégration avec les différents (D)VCS: Git, Mercurial, SVN, CVS <small>(ne riez pas)</small>
 * [http://www.jenkins-ci.org/](http://www.jenkins-ci.org/)
