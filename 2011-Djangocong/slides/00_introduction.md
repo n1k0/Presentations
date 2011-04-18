@@ -31,7 +31,7 @@
 
 .fx: centerquote
 
-> T'as la droit de tout péter, mais t'es obligé d'**être au courant**.
+> T'as le droit de tout péter, mais t'es obligé d'**être au courant**.
 
 <p class="cite">— <a href="https://twitter.com/n1k0">@n1k0</a></p>
 
