@@ -26,7 +26,7 @@ Avec pip :
 
     $ pip install django-jenkins
 
-Puis ajoutez l'app `jenkins` dans vos `INSTALLED_APPS`.
+Puis ajoutez l'app `django_jenkins` dans vos `INSTALLED_APPS`.
 
 **C'est tout.**
 
